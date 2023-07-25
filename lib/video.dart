@@ -52,9 +52,6 @@ class _ARVideoState extends State<ARVideo> {
 
     final sphere = ARKitSphere(
       radius: 1,
-      // width: 0.1,
-      // height: 0.1,
-      // length: 0.1,
       materials: [ARKitMaterial(
             diffuse: ARKitMaterialProperty.video(
               width: 480,
