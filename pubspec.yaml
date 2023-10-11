@@ -16,6 +16,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   arkit_plugin: ^1.0.6
   video_player: ^2.5.2
+  vector_math: ^2.1.4
 
 
 dev_dependencies:
