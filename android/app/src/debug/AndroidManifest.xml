@@ -1,8 +1,30 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.wild_ar">
-    <!-- The INTERNET permission is required for development. Specifically,
-         the Flutter tool needs it to communicate with the running application
-         to allow setting breakpoints, to provide hot reload, etc.
-    -->
+<!-- <manifest xmlns:android="http://android.com"
+          xmlns:tools="http://android.com"
+          package="com.example.wild_ar">
+
     <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application>
+        <meta-data 
+            android:name="com.google.ar.core" 
+            android:value="required" 
+            tools:replace="android:value" />
+    </application>
+</manifest> -->
+
+
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application>
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required"
+            tools:replace="android:value" />
+    </application>
+
 </manifest>
+

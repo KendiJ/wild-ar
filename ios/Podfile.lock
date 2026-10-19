@@ -1,14 +1,21 @@
 PODS:
   - arkit_plugin (0.0.1):
     - Flutter
+    - GLTFSceneKit
   - Flutter (1.0.0)
+  - GLTFSceneKit (0.3.0)
   - video_player_avfoundation (0.0.1):
     - Flutter
+    - FlutterMacOS
 
 DEPENDENCIES:
   - arkit_plugin (from `.symlinks/plugins/arkit_plugin/ios`)
   - Flutter (from `Flutter`)
-  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - GLTFSceneKit
 
 EXTERNAL SOURCES:
   arkit_plugin:
@@ -16,13 +23,14 @@ EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
   video_player_avfoundation:
-    :path: ".symlinks/plugins/video_player_avfoundation/ios"
+    :path: ".symlinks/plugins/video_player_avfoundation/darwin"
 
 SPEC CHECKSUMS:
-  arkit_plugin: 3e42571e8be84adabb8a178bd51c22fa981e16bd
-  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  video_player_avfoundation: 81e49bb3d9fb63dccf9fa0f6d877dc3ddbeac126
+  arkit_plugin: 2c387e26e137de4bd1fc16ec2fabd05c84c5a817
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  GLTFSceneKit: d1b437c514ba2aed5555afb0fddd64e030612d57
+  video_player_avfoundation: 2cef49524dd1f16c5300b9cd6efd9611ce03639b
 
-PODFILE CHECKSUM: 7368163408c647b7eb699d0d788ba6718e18fb8d
+PODFILE CHECKSUM: 4e8f8b2be68aeea4c0d5beb6ff1e79fface1d048
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.16.2
