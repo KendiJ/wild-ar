@@ -1,6 +1,5 @@
 import 'package:arkit_plugin/arkit_plugin.dart';
 import 'package:flutter/material.dart';
-import 'package:vector_math/vector_math_64.dart';
 
 class SensoramaView extends StatelessWidget {
   const SensoramaView({super.key});
@@ -11,7 +10,8 @@ class SensoramaView extends StatelessWidget {
       body: ARKitSceneView(
         onARKitViewCreated: (c) {
           final node = ARKitNode(
-            geometry: ARKitSphere(
+            geometry: 
+            ARKitSphere(
               materials: [
                 ARKitMaterial(
                  diffuse: const ARKitMaterialImage('assets/images/earth.jpeg'),
@@ -19,7 +19,7 @@ class SensoramaView extends StatelessWidget {
                 ),
               ]
             ),
-            position: Vector3.zero(),
+            // position: Vector3.zero(),
           );
           c.add(node);
         },
